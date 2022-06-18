@@ -1,0 +1,36 @@
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    color:red;
+}
+input[type=text],input[type=email],input[type=password],select
+
+{
+    width:100%;
+    padding:12px 15px;
+    display: inline-block;
+    margin:15px 20px;
+    border: 5px dotted blue;
+    box-sizing: border-box;
+
+}
+div{
+     
+background-color:turquoise;
+width:550px;
+border:2px solid red;
+padding:40px;
+border-radius:3px;
+padding-bottom:40px;
+margin-bottom: 100px;
+margin-left:400px;
+}
+input[type=submit]
+{
+    color:brown;
+    padding: 5px;
+    margin-left:250px;
+    background-color: fuchsia;
+    font-size: 30px;
+}
+

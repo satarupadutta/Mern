@@ -1,0 +1,33 @@
+h1{
+    color:red;
+    border:2px solid aquamarine;
+    text-transform: uppercase;
+    text-align: center;
+}
+div{
+    border: 3px grove pink;
+    background-color: yellow;
+    width:50%;
+    margin-left: 350px;
+    padding:40px;
+    border-radius: 8px;
+
+}
+input[type=text], input[type=email],input[type=password],select{
+    width:100%;
+    display:inline-block;
+    padding:12px 20px;
+    margin: 15px 20px;
+    box-sizing: border-box;
+    border:2px solid blue;
+    
+}
+input[type=submit]{
+    color:brown;
+    padding:5px;
+    background-color: fuchsia;
+    font-size: 20px;
+    margin-left: 350px;
+    border-radius:3px;
+    cursor:pointer;
+}

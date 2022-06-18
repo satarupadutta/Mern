@@ -1,0 +1,58 @@
+h1{border:2px solid black;
+    background-image: url("../image/h.jpg");
+    text-align: center;
+    width:80%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 50px 50px;
+    margin: auto;
+    margin-top: 30px;
+    text-transform: capitalize;
+
+}
+d1{
+    color:mistyrose;
+}
+d2{
+    color:lightsalmon;
+}
+d3{
+    color:mediumvioletred;
+}
+.test{
+    border:2px solid red;
+    width:60%;
+    text-align: center;
+    background-color: bisque;
+    margin:0px 50px 0px 300px;
+}
+h2{
+    color:brown;
+    text-transform: capitalize;
+}
+
+.top
+{   background-color: pink;
+    width:80%;
+    padding:40px 40px;
+    margin: 25px 50px  70px 90px;
+    border: 5px dotted blue;
+    box-sizing: border-box;
+    text-align:center;
+
+    
+}
+input[type=submit]
+   { color:brown;
+    padding: 5px;
+     font-size: 10px;
+     }
+   .p{
+       text-transform: capitalize;
+       border: 2px solid  blue;
+       margin: 0px 250px 40px  250px;
+       background-color: beige;
+   } 
+.p::first-letter{
+    color:aqua;
+}

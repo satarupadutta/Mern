@@ -1,0 +1,136 @@
+*{
+    font-family: century gothic;
+    margin:0;
+    padding:0;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../image/b.jpg');
+    height:600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ul{
+    float:right;
+    list-style-type:none;
+    margin-top: 20px;
+    transition: 0.5s ease;
+   position: sticky;
+}
+
+ul li{
+    display: inline-block;
+    
+}
+ul li a{
+    color:gold;
+    border:1px solid transparent;
+    padding:5px 20px;
+    text-decoration:none;
+    
+}
+ul li.active a{
+    background-color: bisque;
+    color:black;
+
+}
+ul li a:hover{
+    background-color: bisque;
+    color:black;
+}
+.logo img{
+    float:left;
+    width:100px; 
+    height:auto;
+}
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
+.title{
+    position: absolute;
+    top:30%;
+    left:40%;
+    text-transform: capitalize;
+    color:chocolate;
+    text-decoration:underline;
+}
+.buttons{
+    position: absolute;
+    top:40%;
+    left:45%;
+    text-transform: capitalize;
+    color:chocolate;
+    text-decoration:underline;
+}
+.btn{
+    color:indianred;
+    border:1px solid white;
+    padding :5px 5px;
+    transition:0.6s ease;
+}
+.btn:hover{
+    background-color: white;
+    color:black;
+}
+.web{
+    border:3px solid red;
+}
+h2{
+    text-transform: capitalize;
+    color:darksalmon;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+td{
+    text-align: center;
+    color:brown;
+    background-color: pink;
+}
+th{
+    background-color: aqua;
+}
+table{
+    width:70%;
+    height:250px;
+    margin-top: 20px;
+}
+
+.container{
+    background-color:indianred;
+    display:flex;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.a{
+    background-color: white;
+    margin: 20px;
+  border-radius: 5%;
+  padding-left: 8px;
+
+}
+.container img{
+    border-radius: 500%;
+  height:150px;
+}
+p{
+    text-align: justify;
+}
+h3{
+    color:blue;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+  
+.foot{
+    background-color: greenyellow;
+    width:100%;
+    margin-top:10px;
+}
+.foot p{
+    
+    text-align: center;
+    color:indianred;
+    padding:1px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+            display:flex;
+            background-color: aquamarine;
+            margin:20px;
+            padding:20px;
+            font-size:20px;
+            border:2px solid red;
+            flex-direction:row;
+            flex-wrap:wrap;
+            justify-content: center;
+            align-items:center;
+            align-content:space-between;
+           
+        }
+        .fitem{
+            background-color: blanchedalmond;
+            margin:30px;
+            padding:30px;
+            border:3px solid violet;
+            width:20%;
+            height:20px;
+            align-content: stretch;
+            align-items: stretch;
+            
+        }
+        .fitem:nth-of-type(1) { order: 3; }
+        .fitem:nth-of-type(5) { order: 4; }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+       
+        <div class="fitem">1</div>
+        <div class="fitem">2</div>
+        <div class="fitem">3</div>
+        <div class="fitem">4</div>
+        <div class="fitem">5</div>
+        <div class="fitem">6</div>
+        <div class="fitem">7</div>
+        <div class="fitem">8</div>
+        <div class="fitem">9</div>
+        <div class="fitem">10</div>
+        <div class="fitem">11</div>
+        <div class="fitem">12</div>
+       
+    </div>
+</body>
+</html>

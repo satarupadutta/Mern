@@ -1,0 +1,26 @@
+        .test{
+        background-color: bisque;
+        border-left:5px solid aqua;
+        border-top: 5px solid aqua;
+        border-right:5px solid aqua;
+        border-bottom:5px solid aqua;
+        padding:50px 50px 50px 50px;
+        margin:100px 400px 5px 400px;
+        text-align: justify;
+        }
+       p::first-letter{
+        text-transform: capitalize;
+        color:red;
+        
+        
+       } 
+       .hello{
+           
+           text-transform: uppercase;
+           padding-bottom: 50px;
+           text-align: center;
+       }
+       p{
+           padding: 10px 80px 10px 80px;
+       }
+       

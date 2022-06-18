@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event handler</title>
+</head>
+<body>
+    <center>
+        <h3>Login Form</h3>
+        <form onSubmit="hello()">
+            Name : <input type="text" id="name"><br><br>
+            Password : <input type="password"><br><br>
+            <input type="submit">
+        </form>
+        <hr>
+        <br>
+        <h4>show date and time</h4>
+        <button onclick="displaydate()">click</button>
+    <script>
+        function displaydate()
+        {
+            document.getElementById('onclick').innerHTML=Date();
+        }
+        function hello()
+        {
+            var x= document.getElementById("name").value;
+            alert("Successfully Login : " + x)
+        }
+    </script>
+    <p id="onclick"></p>
+</center>
+</body>
+</html>
+        
+    </script>
+    
+</center>
+</body>
+</html>
+
+    </center>
+
+
+</body>
+</html>
